@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(AccuielBackground.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#scroll_to_top {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    bottom: 70px;
+    right: 40px;
+    animation: animate 5s linear infinite;
+}
+
+#scroll_to_top .top {
+    width: 40px;
+}
+
+@keyframes animate{
+    0%{
+        transform: perspective(1000px) rotateY(0deg);
+    }
+
+    10%{
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+.MenuBar{
+    background-color: rgb(221, 172, 10);
+    text-align: center;
+}
+
+.MenuBar{
+    position: fixed;
+    width: 100%;
+}
+
+.SubMenu{
+    font-size: 13px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 15px;
+}
+
+.MenuBar ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.MenuBar ul li{
+    width: 145px;
+    padding: 10px;
+}
+
+.Active, .MenuBar ul li:hover{
+    background-color: rgb(114, 89, 7);
+    
+}
+
+
+.SubMenu{
+    display: none;
+    line-height: 1.4em;
+}
+
+
+.MenuBar ul li:hover .SubMenu{
+    display: block;
+    position: absolute;
+    background-color: rgb(221, 172, 10);
+    margin-top: 28px;
+    margin-left: calc(-20px);
+    padding-right: 1.7%;
+    padding-left: calc(-10%);
+}
+
+.MenuBar ul li:hover .SubMenu ul{
+    display: block;
+    margin-left: 6.5%;
+}
+
+
+img{
+    padding-top: 6%;
+}
+
+.Contenu{
+    background-color: rgba(245, 245, 245, 0.712);
+    font-family: sans-serif;
+    width: 76%;
+    padding: 3.8%;
+    margin-left: 10%;
+    color: rgb(68, 67, 67);
+    
+}
+
+.Àpropos{
+    color: rgb(158, 157, 157);
+    margin-left: 0%;
+    font-size: 13.5px;
+    font-style: italic;
+}
+
+h1{
+  font-size: 29px;
+  font-weight: 700;
+  padding-right: 5%;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -.01em;
+    word-wrap: break-word;
+    line-height: 1.4em;
+}
+
+hr{
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid black;
+}
+
+.ligne1pho1{
+    margin-top: calc(-3%);
+    cursor: pointer;
+}
+
+.ligne1pho2{
+    margin-left: calc(9.5%);
+    cursor: pointer;
+}
+
+.ligne1pho3{
+    margin-left: calc(5%);
+    margin-top: calc(-3%);
+}
+
+.ligne2pho4{
+    margin-top: calc(-6%);
+}
+
+.ligne2pho5{
+    margin-left: 45.5%;
+    margin-top: calc(-6%);
+}
+
+.ligne2pho6{
+    margin-left: 19.5%;
+    margin-top: calc(-6%);
+}
+
+.ligne2{
+    margin-top: calc(-0.5%);
+}
+
+.ligne3{
+    margin-top: calc(-2.5%);
+}
+
+.ligne4pho10{
+    padding-top: calc(-3.5%);
+}
+
+.ligne4pho11{
+    padding-top: calc(-3.5%);
+}
+
+.ligne4pho12{
+    padding-top: calc(-3.5%);
+}
+
+.ligne4pho13{
+    padding-top: calc(-5%);
+}
+
+.ligne5pho16{
+    margin-left: 48%;
+}
+
+.ligne5pho15{
+    margin-left: 15%;
+}
+
+.ligne5pho16{
+    padding-top: calc(14.5%);
+}
+
+.ligne5{
+    margin-top: calc(-2.5%);
+}
+
+.ligne6pho19{
+    padding-top: calc(0%);
+}
+.ligne6pho23{
+    margin-left: 73%;
+}
+
+.PartieSous{
+    background-color: rgb(53, 49, 49);
+    font-family: sans-serif;
+    width: 76%;
+    padding: 3.8%;
+    padding-top: 8%;
+    margin-left: 10%;
+    color: white;
+}
+
+.ligne7pho3{
+    margin-top: 6.5%;
+}
+
+.Parag2{
+    font-size: 40px;
+}
+
+.Para3{
+    font-size: 13.5px;
+    line-height: 2em;
+
+}
+
+.ConnFace{
+    background-color: rgb(41, 89, 179);
+    width: 20%;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: transparent;
+}
+
+.ConnFace2{
+    color: white;
+
+}
+
+i{
+    margin-left: 6px;
+}
+
+.Visitez{
+    background-color: rgb(221, 172, 10);
+    border-style: solid;
+    border-radius: 2px;
+    border-color: transparent;
+    padding: 10px;
+    width: 27%;
+    
+    
+}
+
+.Visitez2{
+    color: white;
+    margin-left: 18px;
+    font-family: sans-serif;
+    font-size: 19px;
+}
+
+.LogoPartieSous{
+    position: relative;
+}
+
+.LienPartieSous{
+    font-size: 12px;
+    text-decoration: underline;
+    font-family: sans-serif;
+    
+}
+
+
